@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
             'str_reverse_service = prun1911hw2.service:main',
             'str_reverse_client = prun1911hw2.client:main',
+            'publisher = prun1911hw2.publisher:main',
+            'subscriber = prun1911hw2.subscriber:main',
         ],
     },
 )
