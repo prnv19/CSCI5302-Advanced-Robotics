@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'str_reverse_service = prun1911hw2.service:main',
+            'str_reverse_client = prun1911hw2.client:main',
         ],
     },
 )
