@@ -1,0 +1,4 @@
+std_msgs/String input_str
+---
+string output_str
+float64 time
